@@ -1,15 +1,24 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/Diegorodri14/Remedial-Aplaudo#readme",
+  "bugs": {
+    "url": "https://github.com/Diegorodri14/Remedial-Aplaudo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diegorodri14/Remedial-Aplaudo.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
     "bcrypt": "^6.0.0",
     "bcryptjs": "^3.0.3",
@@ -26,6 +35,7 @@
     "multer-storage-cloudinary": "^4.0.0",
     "node-fetch": "^3.3.2",
     "nodemailer": "^8.0.5",
+    "nodemon": "^3.1.14",
     "react": "^19.2.4"
   }
 }
